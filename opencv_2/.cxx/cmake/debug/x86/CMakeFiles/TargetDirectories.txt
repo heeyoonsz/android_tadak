@@ -1,0 +1,3 @@
+C:/Users/dhqhr/AndroidStudioProjects/CapturePicture/opencv_2/.cxx/cmake/debug/x86/CMakeFiles/opencv_jni_shared.dir
+C:/Users/dhqhr/AndroidStudioProjects/CapturePicture/opencv_2/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/Users/dhqhr/AndroidStudioProjects/CapturePicture/opencv_2/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

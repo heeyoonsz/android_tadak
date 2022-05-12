@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf16080-95c7-4d5e-89f4-0b389d27c3b3" name="Default Changelist" comment="Revert &quot;0512 new commit&quot;&#10;&#10;This reverts commit 9412492376ac231f425723672fc5df1ef990060d.&#10;&#10;# Conflicts:&#10;#&#9;app/readme.md" />
+    <list default="true" id="6cf16080-95c7-4d5e-89f4-0b389d27c3b3" name="Default Changelist" comment="" />
     <list id="58eedad8-5ed8-4303-bcab-9f21e47726a2" name="0512 commit except opencv module" comment="" />
     <list id="2cad691e-b93f-4f85-baec-beafaa8047cc" name="Revert &quot;0512 new commit&quot;" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652327885630</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Revert &quot;0507 opencv module imported&quot;&#10;&#10;This reverts commit 832db02d">
+      <created>1652338219360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652338219360</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit except opencv module">
+      <created>1652338443009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652338443009</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +264,8 @@
     <MESSAGE value="new commit" />
     <MESSAGE value="0507 opencv module imported" />
     <MESSAGE value="Revert &quot;0512 new commit&quot;&#10;&#10;This reverts commit 9412492376ac231f425723672fc5df1ef990060d.&#10;&#10;# Conflicts:&#10;#&#9;app/readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;0512 new commit&quot;&#10;&#10;This reverts commit 9412492376ac231f425723672fc5df1ef990060d.&#10;&#10;# Conflicts:&#10;#&#9;app/readme.md" />
+    <MESSAGE value="Revert &quot;0507 opencv module imported&quot;&#10;&#10;This reverts commit 832db02d" />
+    <MESSAGE value="commit except opencv module" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit except opencv module" />
   </component>
 </project>
