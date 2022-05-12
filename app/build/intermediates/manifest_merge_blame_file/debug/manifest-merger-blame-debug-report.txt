@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.techtown.capturepicture"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:4:5-5:34
+12        android:name="android.hardware.camera"
+12-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:4:19-57
+13        android:required="true" />
+13-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:5:9-32
+14
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:6:5-81
+15-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:7:5-79
+16-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:8:5-64
+17-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:8:22-62
+18
+19    <application
+19-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:10:5-33:19
+20        android:allowBackup="true"
+20-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.2] C:\Users\dhqhr\.gradle\caches\transforms-2\files-2.1\b2ec1cf1753971d993aa0a176b0b6f4a\core-1.0.2\AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:12:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:13:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:14:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:15:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:16:9-40
+29        <activity android:name="org.techtown.capturepicture.MainActivity" >
+29-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:17:9-23:20
+29-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:17:19-47
+30            <intent-filter>
+30-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:18:13-22:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:19:17-69
+31-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:19:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:21:17-77
+33-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:21:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.core.content.FileProvider"
+38-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:25:13-62
+39            android:authorities="org.techtown.capturepicture.fileprovider"
+39-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:26:13-75
+40            android:exported="false"
+40-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:27:13-37
+41            android:grantUriPermissions="true" >
+41-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:28:13-47
+42            <meta-data
+42-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:29:13-31:64
+43                android:name="android.support.FILE_PROVIDER_PATHS"
+43-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:30:17-67
+44                android:resource="@xml/file_paths" />
+44-->C:\Users\dhqhr\AndroidStudioProjects\CapturePicture\app\src\main\AndroidManifest.xml:31:17-51
+45        </provider>
+46
+47        <activity
+47-->[gun0912.ted:tedpermission:2.2.3] C:\Users\dhqhr\.gradle\caches\transforms-2\files-2.1\6aa503dfdfb1c42e47774d8d965db62b\jetified-tedpermission-2.2.3\AndroidManifest.xml:10:9-14:67
+48            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+48-->[gun0912.ted:tedpermission:2.2.3] C:\Users\dhqhr\.gradle\caches\transforms-2\files-2.1\6aa503dfdfb1c42e47774d8d965db62b\jetified-tedpermission-2.2.3\AndroidManifest.xml:11:13-75
+49            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+49-->[gun0912.ted:tedpermission:2.2.3] C:\Users\dhqhr\.gradle\caches\transforms-2\files-2.1\6aa503dfdfb1c42e47774d8d965db62b\jetified-tedpermission-2.2.3\AndroidManifest.xml:12:13-144
+50            android:screenOrientation="unspecified"
+50-->[gun0912.ted:tedpermission:2.2.3] C:\Users\dhqhr\.gradle\caches\transforms-2\files-2.1\6aa503dfdfb1c42e47774d8d965db62b\jetified-tedpermission-2.2.3\AndroidManifest.xml:13:13-52
+51            android:theme="@style/Theme.Transparent.Permission" />
+51-->[gun0912.ted:tedpermission:2.2.3] C:\Users\dhqhr\.gradle\caches\transforms-2\files-2.1\6aa503dfdfb1c42e47774d8d965db62b\jetified-tedpermission-2.2.3\AndroidManifest.xml:14:13-64
+52    </application>
+53
+54</manifest>
